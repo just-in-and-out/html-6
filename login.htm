@@ -1,0 +1,57 @@
+<form action="voorbeeldform.php" method="post">
+  <ul>
+    <li>
+      <label>Voornaam</label>
+      <input type="text" name="voornaam">
+    </li>
+    <li>
+      <label>Tussenvoegsel</label>
+      <input type="text" name="tussenvoegsel">
+    </li>
+    <li>
+      <label>Achternaam </label>
+      <input type="text" name="achternaam">
+    </li>
+    <li>
+      <label>gevoorte datum</label>
+      <input type="date" name="gemboortedatum">
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <oog-kleur>
+        <select name="kleur-ogen">
+          <option>bruin</option>
+          <option>groen</option>
+          <option>blauw</option>
+        </select>
+      </oog-kleur>
+    </li>
+    <li>
+      <text>
+        <textarea name="omschrijving"></textarea>
+      </text>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <label for"lekker-eten">lekker eten</label>
+      <p>
+        <input type="checkbox" name="lekker-eten" value="patat">
+        <span class="checkbox">patat</span><br>
+        <input type="checkbox" name="lekker-eten" value="bruine bonen">
+        <span class="checkbox">bruine bonen</span><br>
+        <input type="checkbox" name="lekker-eten" value="linzen">
+        <span class="checkbox">linzen</span>
+      </li>
+      <li>
+        <input type="radio" name="geslacht" value="man"/>
+        &nbsp;Man
+        <input type="radio" name="geslacht" value="vrouw"/>
+        &nbsp;Vrouw
+      </li>
+      <li>
+        <input type="submit" name="knop">
+      </li>
+    </ul>
+</form>

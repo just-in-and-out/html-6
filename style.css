@@ -1,0 +1,23 @@
+<head>
+  <style>
+    p{
+      width: 32%;
+    }
+    p#t1{
+      display: inline;
+      width: 32%;
+      float: left;
+    }
+    p#t2{
+      display: inline;
+      float: middle;
+    }
+    p#t3{
+      display: inline;
+      float: right;
+   }
+   img{
+      display: inline;
+    }
+ </style>
+</head>
