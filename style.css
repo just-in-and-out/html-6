@@ -99,6 +99,7 @@
  input.button{
    width: 100px;
    background-color: cyan;
+   grid-colum:3/4;
  }
  p.final-text{
    grid-column: 1/3;
