@@ -1,23 +1,108 @@
 <head>
   <style>
-    p{
+  m{}
+  article, footer, header, photos{
+    margin: auto;
+    width: 1020px;
+    background-color: rgb(255, 234, 234);
+    padding: 20px;
+  }
+  div.index{
+    width: 500px;
+    height: 303px;
+    display: inline;
+    float: middle;
+  }
+  article{
+    height: 1350px;
+  }
+  p{
+    width: 32%;
+  }
+  p#t1{
+  display: inline;
       width: 32%;
-    }
-    p#t1{
+    float: left;
+  }
+  p#t2{
+   display: inline;
+     float: middle;
+  }
+  p#t3{
+   display: inline;
+     float: right;
+  }
+ img{
       display: inline;
-      width: 32%;
       float: left;
-    }
-    p#t2{
-      display: inline;
-      float: middle;
-    }
-    p#t3{
-      display: inline;
-      float: right;
-   }
-   img{
-      display: inline;
-    }
+ }
+ a{
+   color: blue;
+
+ }
+ footer{
+   background-color: rgb(166, 166, 166);
+   height: 100px;
+ }
+ footer a{
+   color: white;
+ }
+ input{
+   float: right;
+ }
+ li{
+   width: 300px;
+ }
+ form{
+   display: grid;
+   grid-template-columns: 20% 30% 10% 40%;
+   font-size: 18px;
+ }
+ h1{
+   grid-column: 1/5;
+   font-size: 25px;
+ }
+ div.eten{
+   display: flex;
+   grid-column: 4/5
+ }
+ input.naam{
+   width: 40%;
+ }
+ div.geslacht{
+   display: grid;
+   grid-template-columns: 5% 10% 5% 10% 70%;
+ }
+ div.kleur-ogen{
+   grid-column: 1/3;
+   display: grid;
+   grid-template-columns: 40% 20% 40%;
+ }
+ select.kleur{
+   width: 135px;
+ }
+ label.datum{
+   grid-column: 1/2
+ }
+ input.datum{
+   width: 135px;
+ }
+ label.textarea{
+   grid-column: 1/2;
+ }
+ input.textarea{
+   height: 150px;
+ }
+ div.buttons{
+   grid-column: 4/5;
+ }
+ input.button{
+   width: 100px;
+   background-color: cyan;
+ }
+ p.final-text{
+   grid-column: 1/3;
+ }
+ m{}
  </style>
-</head>
+ </head>
