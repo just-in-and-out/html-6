@@ -1,57 +1,62 @@
-<form action="voorbeeldform.php" method="post">
-  <ul>
-    <li>
-      <label>Voornaam</label>
-      <input type="text" name="voornaam">
-    </li>
-    <li>
-      <label>Tussenvoegsel</label>
-      <input type="text" name="tussenvoegsel">
-    </li>
-    <li>
-      <label>Achternaam </label>
-      <input type="text" name="achternaam">
-    </li>
-    <li>
-      <label>gevoorte datum</label>
-      <input type="date" name="gemboortedatum">
-    </li>
-  </ul>
-  <ul>
-    <li>
-      <oog-kleur>
-        <select name="kleur-ogen">
-          <option>bruin</option>
-          <option>groen</option>
-          <option>blauw</option>
-        </select>
-      </oog-kleur>
-    </li>
-    <li>
-      <text>
-        <textarea name="omschrijving"></textarea>
-      </text>
-    </li>
-  </ul>
-  <ul>
-    <li>
-      <label for"lekker-eten">lekker eten</label>
-      <p>
-        <input type="checkbox" name="lekker-eten" value="patat">
-        <span class="checkbox">patat</span><br>
-        <input type="checkbox" name="lekker-eten" value="bruine bonen">
-        <span class="checkbox">bruine bonen</span><br>
-        <input type="checkbox" name="lekker-eten" value="linzen">
-        <span class="checkbox">linzen</span>
-      </li>
-      <li>
-        <input type="radio" name="geslacht" value="man"/>
-        &nbsp;Man
-        <input type="radio" name="geslacht" value="vrouw"/>
-        &nbsp;Vrouw
-      </li>
-      <li>
-        <input type="submit" name="knop">
-      </li>
-    </ul>
-</form>
+<html>
+  <head>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <form action="login.php" method="post">
+    <h1>voorbeeldformulier</h1>
+
+    <label for="voornaam">voornaam</label>
+    <input type="text" name="voornaam" class="naam">
+
+    <label for="eten">lekkereten</label>
+    <div class="eten">
+      <input type="checkbox" name="eten" id="eten">
+      <label for="eten">sperziebonen</label>
+    </div>
+
+    <label for="tussenvoegsel">tussenvoegsel</label>
+    <input type="text" name="tussenvoegsel" class="naam">
+
+
+    <div class="eten">
+      <input type="checkbox" name="eten" id="eten">
+      <label for="eten">aardappelen</label>
+    </div>
+
+    <label for="achternaam">achternaam</label>
+    <input type="text" name="achternaam" class="naam">
+
+    <div class="eten">
+      <input type="checkbox" name="eten" id="eten">
+      <label for="eten">hamburger</label>
+    </div>
+
+    <label for="geslacht">geslacht</label>
+    <div class="geslacht">
+      <input type="radio" name="geslacht" class="geslacht">
+      <label for="geslacht">man</label>
+      <input type="radio" name="geslacht" class="geslacht">
+      <label for="geslacht">vrouw</label>
+    </div>
+
+    <div class="kleur-ogen">
+      <label for="ogen">kluer ogen</label>
+      <select class="kleur" name="kleur-ogen">
+        <option value="">bruin</option>
+        <option value="">groen</option>
+        <option value="">blauw</option>
+      </select>
+    </div>
+
+    <label class="datum">Geboortedatum</label>
+    <input type="date" class="datum">
+    <label class="textarea">omsrijving</label>
+    <input type="text" name="" class="textarea">
+
+    <p class="final-text">als je klaar bent met infullen click op de submit knop</p>
+    <div class="buttons">
+      <input type="button" name="" value="submit" class="button">
+      <input type="button" name="" value="annuleer" class="button">
+    </div>
+  </form>
+</html>
